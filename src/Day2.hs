@@ -3,10 +3,10 @@ module Day2
     ) where
 
 data Entry = Entry {
-  entryNum1 :: Int,
-  entryNum2 :: Int,
-  entryChar :: Char,
-  entryPass :: String
+  _entryNum1 :: Int,
+  _entryNum2 :: Int,
+  _entryChar :: Char,
+  _entryPass :: String
 }
 
 day2 :: IO ()

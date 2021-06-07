@@ -10,8 +10,8 @@ day3 = do
   let c = countTrees 5 1 inputs
   let d = countTrees 7 1 inputs
   let e = countTrees 1 2 inputs
-  putStrLn ("Part 1: " ++ show b)
-  putStrLn ("Part 2: " ++ show (a * b * c * d * e))
+  putStrLn $ "Part 1: " ++ show b
+  putStrLn $ "Part 2: " ++ show (a * b * c * d * e)
 
 countTrees :: Int -> Int -> [[Char]] -> Int
 countTrees x_off y_off grid =

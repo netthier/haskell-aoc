@@ -10,13 +10,13 @@ import Data.Char (isNumber, isAlpha)
 import Data.Ix (inRange)
 
 data Passport = Passport {
-  birthYear :: Int,
-  issueYear :: Int,
-  expYear :: Int,
-  height :: (Int, String),
-  hairColor :: String,
-  eyeColor :: String,
-  passId :: String
+  _birthYear :: Int,
+  _issueYear :: Int,
+  _expYear :: Int,
+  _height :: (Int, String),
+  _hairColor :: String,
+  _eyeColor :: String,
+  _passId :: String
 }
 
 day4 :: IO ()

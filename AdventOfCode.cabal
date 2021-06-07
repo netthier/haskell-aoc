@@ -29,6 +29,8 @@ library
       Day3
       Day4
       Day5
+      Day6
+      Day7
   other-modules:
       Paths_AdventOfCode
   hs-source-dirs:
@@ -38,6 +40,7 @@ library
   build-depends:
       base >=4.7 && <5
     , containers ==0.6.*
+    , split ==0.2.*
     , text ==1.2.*
   default-language: Haskell2010
 
@@ -54,6 +57,7 @@ executable AdventOfCode-exe
       AdventOfCode
     , base >=4.7 && <5
     , containers ==0.6.*
+    , split ==0.2.*
     , text ==1.2.*
   default-language: Haskell2010
 
@@ -71,5 +75,6 @@ test-suite AdventOfCode-test
       AdventOfCode
     , base >=4.7 && <5
     , containers ==0.6.*
+    , split ==0.2.*
     , text ==1.2.*
   default-language: Haskell2010
